@@ -1,3 +1,51 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 html, body {
-  margin: 20px;
+  font-family: 'Oswald'
+}
+
+.create-note {
+  float:left;
+  width:50%;
+  padding-right:10px;
+}
+
+.title {
+  text-align:center;
+}
+
+textarea {
+  border-radius:10px;
+  min-height:50px;
+  width: 100%;
+  outline: none;
+  resize: none;
+}
+
+.savebutton {
+  border-radius:10px;
+  display:inline-block;
+  border: 2px solid black;
+}
+
+.deletebutton {
+  border: 2px solid black;
+  float:right;
+  border-radius:10px;
+}
+
+.savenote {
+  width:50%;
+  float:right;
+}
+
+.note {
+  min-height:25px;
+}
+
+.notetext {
+  max-width:550px;
+  min-height:50px;
 }
