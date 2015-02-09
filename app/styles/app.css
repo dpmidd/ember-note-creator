@@ -1,23 +1,23 @@
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
 html, body {
   font-family: 'Oswald'
 }
 
+body {
+  background-color:#001D4A;
+}
+
 .create-note {
-  float:left;
-  width:50%;
+  width:40%;
   padding-right:10px;
 }
 
 .title {
   text-align:center;
+  color:#ECA400;
 }
 
 textarea {
-  border-radius:10px;
+  border-radius:5px;
   min-height:50px;
   width: 100%;
   outline: none;
@@ -30,22 +30,21 @@ textarea {
   border: 2px solid black;
 }
 
-.deletebutton {
-  border: 2px solid black;
-  float:right;
-  border-radius:10px;
-}
-
-.savenote {
-  width:50%;
-  float:right;
-}
-
-.note {
-  min-height:25px;
-}
-
 .notetext {
   max-width:550px;
   min-height:50px;
+  color:white;
+}
+
+.deletebutton {
+  border: 2px solid black;
+  border-radius:5px;
+}
+
+.savenote {
+  min-height:25px;
+  width:40%;
+  background-color:#EAF8BF;
+  color:#27476E;
+  border-radius:3px;
 }

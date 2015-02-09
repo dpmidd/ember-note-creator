@@ -13,7 +13,7 @@
 <div class="savenote">
   {{#each note in model}}
     <div class="note">
-      <button class="deletebutton" {{local-note body=note.body id=note.id deleteNote="deleteNote"}}>Delete</button>
+      {{local-note body=note.body id=note.id action="deleteNote"}}
     </div>
   {{/each}}
 </div>
